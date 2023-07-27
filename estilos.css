@@ -1,0 +1,63 @@
+
+body{
+    /* background-color: #00ffff; */
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-right: 20%;
+}
+#menu{
+    list-style:none;
+padding-left: 0%;
+}
+ul li a img{
+    width: 2em;
+}
+.icones{
+    display: inline;
+   
+}
+ul div {
+   padding-top: 1em;
+   word-spacing: 1em;
+}
+#foto{
+  width: 20em;
+  border-radius: 4em;
+  float: right;
+  border: solid 1px;
+}
+#fotoMenu{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nomeEArea {
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+}
+.cardFoto{
+   padding-left:20% ;
+  
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+.icones :hover{
+   transform: scale(1.2);
+
+}
+.cardFoto :hover{
+    
+    box-shadow: 0.2em 0.2em 0.5em  rgb(0, 0, 0);
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ a:hover{
+    color: #a30000;
+ }
