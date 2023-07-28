@@ -61,3 +61,17 @@ li{
  a:hover{
     color: #a30000;
  }
+ @media (max-width: 525px) {
+  .cardFoto{
+    padding-left: 0%;
+  }
+ }
+ @media(max-width: 293px){
+body{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#foto{
+  width: 10em;
+}
+ }
