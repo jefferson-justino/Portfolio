@@ -1,0 +1,47 @@
+#resultados{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+.card{
+    width: min-content;
+    border: solid black;
+    border-radius: 2em;
+}
+.imagemCard{
+    width: 18em;
+    border-top-left-radius: 1.8em;
+    border-top-right-radius: 1.8em;
+}
+.descricaoCard{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 4%;
+  
+}
+.tituloCard{
+    padding-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linkCard :hover{
+    color:black;
+   
+}
+.linkCard :hover{
+    transform: scale(1.03);
+    box-shadow: 0.2em 0.2em 0.5em  rgb(0, 0, 0);
+}
+.descricaoCard:hover{
+    transform: scale(1);
+    box-shadow: 0em 0em 0em  rgb(0, 0, 0);
+}
+.tituloCard:hover{
+    transform: scale(1);
+    box-shadow: 0em 0em 0em  rgb(0, 0, 0);
+
+}
+.imagemCard:hover{
+    box-shadow: 0em 0em 0em  rgb(0, 0, 0);
+
+    transform: scale(1);
+}
