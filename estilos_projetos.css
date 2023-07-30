@@ -45,3 +45,13 @@
 
     transform: scale(1);
 }
+@media (max-width: 525px) {
+    .imagemCard{
+      width: 16em;
+    }
+   }
+   @media(max-width: 293px){
+    .imagemCard{
+        width: 10em;
+      }
+     }
