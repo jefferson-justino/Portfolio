@@ -6,7 +6,10 @@ let p2 = new projeto('calculador-de-mercadoria.png',
                     'Calculador de Mercadoria',
                     'Site criado com o objetivo de solucionar um problema no cálculo de mercadoria, onde o comerciante digita o peso da mercadoria em gramas(informado pela balança) e o valor por KG, o programa informa o valor total que o cliente deve pagar.',
                     'https://calcularmercadoria.netlify.app/')
-                        
+let p3 = new projeto('sorteador.png',
+                     'Sorteador',
+                     'Site de sorteio onde pode sortear números aleatórios (perfeito para rifas onde são vendidas fichas) e pode sortear nome de pessoas, basta digitar o nome dos participantes e o sistema irá sortear um aleatóriamente.',
+                     'https://sorteados.netlify.app/')
 
 let todosProjetos =[]
 todosProjetos.push(p1,p2)
