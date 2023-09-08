@@ -12,7 +12,7 @@ let p3 = new projeto('sorteador.png',
                      'https://sorteados.netlify.app/')
 
 let todosProjetos =[]
-todosProjetos.push(p1,p2)
+todosProjetos.push(p1,p2,p3)
 
 let resultados = document.getElementById('resultados')
 function mostrar (){
