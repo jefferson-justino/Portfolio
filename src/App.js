@@ -1,11 +1,14 @@
 import myphoto from './images/myphoto.jpg'
-
+import node from './images/ferramentas/icons/nodejs.svg' 
 import './App.css';
-
+import css from './images/ferramentas/icons/css.svg'
 import github from './images/github.png'
-
+import html from './images/ferramentas/icons/html.svg'
+import javascript from './images/ferramentas/icons/javascript.svg' 
 import linkedin from './images/linkedin.png'
-
+import React from 'react';
+import react from './images/ferramentas/icons/react.svg';
+import reactNative from './images/ferramentas/icons/react native.svg'
 function App() {
   return (
     <div className="App">
@@ -49,6 +52,17 @@ Minha paixão pela tecnologia se reflete na busca contínua por aprendizado e na
 
 Vamos juntos transformar ideias em realidade digital e impulsionar o sucesso de seu projeto. Estou pronto para embarcar nessa jornada com você.
         </h4>
+         </section>
+         <section>
+          <h2>Ferramentas que utilizo</h2>
+          <figure>
+            <a href='https://www.w3schools.com/html/html_intro.asp' target='_blank' rel='noreferrer'> <img src={html} alt='html' className='icone'/> </a>
+            <a href='https://www.w3schools.com/css/default.asp' target='_blank' rel='noreferrer'> <img src={css} alt='css' className='icone'/> </a>
+            <a href='https://www.w3schools.com/js/default.asp' target='_blank' rel='noreferrer'> <img src={javascript}alt=''className='icone' /> </a>
+            <a href='https://nodejs.org/en/docs' target='_blank' rel='noreferrer'> <img src={node}alt=''className='icone' /> </a>
+            <a href='https://react.dev/' target='_blank' rel='noreferrer'> <img src={react} alt='' className='icone'/> </a>
+            <a href='https://reactnative.dev/' target='_blank' rel='noreferrer'> <img src={reactNative} alt='' className='icone'/> </a>
+          </figure>
          </section>
           <section>
             <h2>Por que Me escolher?</h2>
