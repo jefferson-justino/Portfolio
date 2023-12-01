@@ -92,6 +92,7 @@ Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em a
                 <textarea rows={10} cols={40} >
                   
                 </textarea>
+                <input type='button' value='ENVIAR' id='submit'/>
                 </fieldset>
                 </form>
             </article>

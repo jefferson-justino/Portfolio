@@ -40,6 +40,7 @@ legend{
 textarea {
     border-radius: 20px;
     padding: 10px;
+    margin-bottom: 10px;
 }
 input{
     width: 320px;
@@ -53,4 +54,10 @@ p{
 }
 .icone:hover{
     transform: scale(1.2);
+}
+#submit{
+   padding: 10px;
+   font-weight: bold;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size:medium
 }
