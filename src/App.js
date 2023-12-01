@@ -29,11 +29,11 @@ function App() {
           <h1>Jefferson Justino</h1>
           <h2>Desenvolvedor Web | Mobile</h2>
       
-            <figure>
+            {/* <figure>
             <a href='https://github.com/jefferson-justino' target='_blank'> <img src={github} className='icone'/> </a>
             <a href='https://www.linkedin.com/in/jefferson-justino-b5879920b/' target='_blank'> <img src={linkedin} className='icone'/> </a>
             <img src={myphoto} alt='imagem' className='photo'/>
-            </figure>
+            </figure> */}
             
             </section>
 
