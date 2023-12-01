@@ -1,10 +1,10 @@
-import myphoto from './images/myphoto.jpg'
+// import myphoto from './images/myphoto.jpg'
 
-import './App.css';
+// import './App.css';
 
-import github from './images/github.png'
+// import github from './images/github.png'
 
-import linkedin from './images/linkedin.png'
+// import linkedin from './images/linkedin.png'
 
 function App() {
   return (
