@@ -49,12 +49,14 @@ textarea {
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
+    color:rgb(38, 1, 87) ;
 }
 input{
     width: 320px;
     padding: 5px;
     border-radius: 8px;
     border: 1px solid;
+    color:rgb(38, 1, 87) ;
 }
 p{
     font-size: large;
