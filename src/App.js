@@ -2,24 +2,24 @@ import myphoto from './images/myphoto.jpg'
 import node from './images/ferramentas/icons/nodejs.svg' 
 import './App.css';
 import css from './images/ferramentas/icons/css.svg'
-import github from './images/github.png'
+import github from './images/github.svg'
 import html from './images/ferramentas/icons/html.svg'
 import javascript from './images/ferramentas/icons/javascript.svg' 
-import linkedin from './images/linkedin.png'
+import linkedin from './images/linkedin.svg'
 import React from 'react';
 import react from './images/ferramentas/icons/react.svg';
 import reactNative from './images/ferramentas/icons/react native.svg'
 function App() {
   return (
-    <div className="App">
+    <div className="app">
         <header>
 
           <nav>
             <ul>
-              <li>Sobre Mim</li>
-              <li>Ferramentas</li>
-              <li>Projetos</li>
-              <li>Contato</li>
+              <a href='#sobreMim'><li>Sobre Mim</li></a>
+              <a href='#ferramentas'><li>Ferramentas</li></a>
+              <a href='#projetos'><li>Projetos</li></a>
+              <a href='#contato'><li>Contato</li></a>
             </ul>
           
           </nav>
@@ -42,7 +42,7 @@ function App() {
 
          <section>
           <hr/>
-          <h2> Sobre Mim</h2>
+          <h2 id='sobreMim'> Sobre Mim</h2>
         <h4>
         Desenvolvedor apaixonado por transformar linhas de código em soluções impactantes. Com uma trajetória como programador freelancer, mergulhei em projetos desafiadores que me permitiram aprimorar não apenas minhas habilidades técnicas, mas também minha capacidade de entender e atender às necessidades específicas de cada cliente.
 
@@ -54,7 +54,7 @@ Vamos juntos transformar ideias em realidade digital e impulsionar o sucesso de 
         </h4>
          </section>
          <section>
-          <h2>Ferramentas que utilizo</h2>
+          <h2 id='ferramentas'>Ferramentas que utilizo</h2>
           <figure>
             <a href='https://www.w3schools.com/html/html_intro.asp' target='_blank' rel='noreferrer'> <img src={html} alt='html' className='icone'/> </a>
             <a href='https://www.w3schools.com/css/default.asp' target='_blank' rel='noreferrer'> <img src={css} alt='css' className='icone'/> </a>
@@ -76,12 +76,12 @@ Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em a
           </section>
 
           <section>
-            <h2>Meus Projetos</h2>
+            <h2 id='projetos'>Meus Projetos</h2>
 
           </section>
 
             <article>
-                <form>
+                <form id='contato'>
                   <fieldset>
                     <legend>Contato</legend>
                 <p>Nome</p>
