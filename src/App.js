@@ -1,10 +1,10 @@
-// import myphoto from './images/myphoto.jpg'
+import myphoto from './images/myphoto.jpg'
 
-// import './App.css';
+import './App.css';
 
-// import github from './images/github.png'
+import github from './images/github.png'
 
-// import linkedin from './images/linkedin.png'
+import linkedin from './images/linkedin.png'
 
 function App() {
   return (
@@ -29,11 +29,11 @@ function App() {
           <h1>Jefferson Justino</h1>
           <h2>Desenvolvedor Web | Mobile</h2>
       
-            {/* <figure>
-            <a href='https://github.com/jefferson-justino' target='_blank'> <img src={github} className='icone'/> </a>
-            <a href='https://www.linkedin.com/in/jefferson-justino-b5879920b/' target='_blank'> <img src={linkedin} className='icone'/> </a>
+            <figure>
+            <a href='https://github.com/jefferson-justino' target='_blank'  rel="noreferrer"> <img src={github} className='icone'/> </a>
+            <a href='https://www.linkedin.com/in/jefferson-justino-b5879920b/' target='_blank'  rel="noreferrer"> <img src={linkedin} className='icone'/> </a>
             <img src={myphoto} alt='imagem' className='photo'/>
-            </figure> */}
+            </figure>
             
             </section>
 
