@@ -30,8 +30,8 @@ function App() {
           <h2>Desenvolvedor Web | Mobile</h2>
       
             <figure>
-            <a href='https://github.com/jefferson-justino' target='_blank'  rel="noreferrer"> <img src={github} className='icone'/> </a>
-            <a href='https://www.linkedin.com/in/jefferson-justino-b5879920b/' target='_blank'  rel="noreferrer"> <img src={linkedin} className='icone'/> </a>
+            <a href='https://github.com/jefferson-justino' target='_blank'  rel="noreferrer"> <img src={github} className='icone' alt='github'/> </a>
+            <a href='https://www.linkedin.com/in/jefferson-justino-b5879920b/' target='_blank'  rel="noreferrer"> <img src={linkedin} className='icone' alt='linkedin'/> </a>
             <img src={myphoto} alt='imagem' className='photo'/>
             </figure>
             
