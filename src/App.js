@@ -1,6 +1,10 @@
-import logo from './logo.svg';
+import myphoto from './images/myphoto.jpg'
+
 import './App.css';
 
+import github from './images/github.png'
+
+import linkedin from './images/linkedin.png'
 function App() {
   return (
     <div className="App">
