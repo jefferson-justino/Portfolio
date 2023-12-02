@@ -78,18 +78,6 @@ a{
 header nav ul a :hover{
     transform: scale(1.1);
 }
-/* header nav ul a :focus{
-   animation-duration: 3s;
-   animation-name: slide;
+html{
+    scroll-behavior:smooth;
 }
-@keyframes slide {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  } */
