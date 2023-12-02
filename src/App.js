@@ -9,6 +9,7 @@ import linkedin from './images/linkedin.svg'
 import React from 'react';
 import react from './images/ferramentas/icons/react.svg';
 import reactNative from './images/ferramentas/icons/react native.svg'
+import Project from './components/projects';
 function App() {
   return (
     <div className="app">
@@ -77,7 +78,7 @@ Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em a
 
           <section>
             <h2 id='projetos'>Meus Projetos</h2>
-
+              <Project/>
           </section>
 
             <article>
