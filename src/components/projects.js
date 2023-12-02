@@ -1,9 +1,9 @@
 import './project.css'
-import { useState } from "react"
+
 import imgCalculador from '../images/projetos/calculadorMercadoria.png'
 import imgSorteados from '../images/projetos/sorteados.png'
 export default function Project (){
-const [projects, setProjects] = useState([{
+const projects =[{
     titulo:'Sorteados',
     descricao: 'Site de sorteio onde pode sortear números aleatórios (perfeito para rifas onde são vendidas fichas) e pode sortear nome de pessoas, basta digitar o nome dos participantes e o sistema irá sortear um aleatóriamente.',
     image:imgSorteados,
@@ -14,7 +14,8 @@ const [projects, setProjects] = useState([{
     descricao: 'Site criado com o objetivo de solucionar um problema no cálculo de mercadoria, onde o comerciante digita o peso da mercadoria em gramas(informado pela balança) e o valor por KG, o programa informa o valor total que o cliente deve pagar.',
     image:imgCalculador,
     link: 'https://calcularmercadoria.netlify.app/'
-}])
+}]
+
 
 let result = projects.map((item)=>{
     return(
