@@ -28,9 +28,9 @@ function App() {
         </header>
 
 
-        <main>
+        <main id='jeff' >
          <section>
-          <h1>Jefferson Justino</h1>
+          <h1 >Jefferson Justino</h1>
           <h2>Desenvolvedor Web | Mobile</h2>
       
             <figure>
@@ -81,8 +81,8 @@ Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em a
               <Project/>
           </section>
 
-            <article>
-                <form id='contato'>
+            <article id='contato'>
+                <form >
                   <fieldset>
                     <legend>Contato</legend>
                 <p>Nome</p>
@@ -100,6 +100,11 @@ Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em a
 
 
         </main>
+          <footer>
+          <a href='https://github.com/jefferson-justino' target='_blank'  rel="noreferrer"> <img src={github} className='iconeFooter' alt='github'/> </a>
+            <a href='https://www.linkedin.com/in/jefferson-justino-b5879920b/' target='_blank'  rel="noreferrer"> <img src={linkedin} className='iconeFooter' alt='linkedin'/> </a>
+             <a href='#jeff' id='nome'> <pre>Jefferson Justino 2023 ©</pre></a>
+          </footer>
 
     </div>
   );

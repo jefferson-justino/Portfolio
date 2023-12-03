@@ -1,5 +1,4 @@
 import './project.css'
-
 import imgCalculador from '../images/projetos/calculadorMercadoria.png'
 import imgSorteados from '../images/projetos/sorteados.png'
 export default function Project (){

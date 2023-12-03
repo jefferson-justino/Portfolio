@@ -12,19 +12,21 @@ align-items: center;
 header{
     border: 1px solid  rgb(16, 1, 29);
     background-color: rgb(31, 0, 59);
+    position: fixed;
+    width: 100%;
 }
 .icone{
     width: 50px;
 }
 .photo{
     width: 350px;
-    border-radius: 50px;
+    border-radius: 200px;
 }
 main{
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 5%;
- 
+    padding-top: 5%;
 }
 .app{
     background-color: rgb(38, 1, 87);
@@ -80,4 +82,31 @@ header nav ul a :hover{
 }
 html{
     scroll-behavior:smooth;
+}
+#sobreMim{
+    padding-top: 8%;
+}
+#ferramentas{
+    padding-top: 8%;
+}
+#contato{
+    padding-top: 8%;
+}
+#projetos{
+    padding-top: 8%;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background-color: rgb(24, 1, 44);
+   padding-top: 1%;
+   padding-bottom: 1%;
+}
+.iconeFooter{
+    width: 30px;
+}
+#nome :hover{
+transform: scale(1);
 }
