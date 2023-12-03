@@ -183,3 +183,34 @@ transform: scale(1);
         padding-top: 15%;
     }
 }
+@media(max-width: 377px){
+.photo{
+    width: 200px;
+}
+input{
+    width: 280px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid;
+    color:rgb(38, 1, 87) ;
+}
+textarea {
+   width: 280px;
+}
+fieldset{
+    border-radius: 30px;
+    width: 300px;
+}
+#sobreMim{
+    padding-top: 18%;
+}
+#ferramentas{
+    padding-top: 18%;
+}
+#contato{
+    padding-top: 18%;
+}
+#projetos{
+    padding-top: 18%;
+}
+}
