@@ -41,6 +41,7 @@ article{
 }
 fieldset{
     border-radius: 30px;
+    width: 320px;
 }
 legend{
     font-size: 20px;
@@ -109,4 +110,76 @@ footer{
 }
 #nome :hover{
 transform: scale(1);
+}
+
+@media(max-width:821px){
+    main section figure{
+        padding-left: 5%;
+        
+    }
+    article{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #sobreMim{
+        padding-top: 12%;
+    }
+    #ferramentas{
+        padding-top: 12%;
+    }
+    #contato{
+        padding-top: 12%;
+    }
+    #projetos{
+        padding-top: 12%;
+    }
+}
+@media(max-width:531px){
+    main section figure{
+        padding-left: 1%;
+        
+    }
+    main{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    article{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media(max-width:437px){
+    main{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    header{
+        right:10px
+    }
+}
+@media(max-width:407px){
+    
+    article{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .photo{
+        width: 300px;
+    }
+    #sobreMim{
+        padding-top: 15%;
+    }
+    #ferramentas{
+        padding-top: 15%;
+    }
+    #contato{
+        padding-top: 15%;
+    }
+    #projetos{
+        padding-top: 15%;
+    }
 }
