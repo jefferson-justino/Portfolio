@@ -213,4 +213,14 @@ fieldset{
 #projetos{
     padding-top: 18%;
 }
+article{
+    padding-left: 3%;
+    padding-right: 1%;
+}
+
+}
+@media(min-width:377px){
+    #submit{
+        margin-left: 2%;
+    }
 }
