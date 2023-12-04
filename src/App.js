@@ -8,7 +8,7 @@ import javascript from './images/ferramentas/icons/javascript.svg'
 import linkedin from './images/linkedin.svg'
 import React from 'react';
 import react from './images/ferramentas/icons/react.svg';
-import reactNative from './images/ferramentas/icons/react native.svg'
+
 import Project from './components/projects';
 function App() {
   return (
