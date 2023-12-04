@@ -62,12 +62,12 @@ Vamos juntos transformar ideias em realidade digital e impulsionar o sucesso de 
             <a href='https://www.w3schools.com/js/default.asp' target='_blank' rel='noreferrer'> <img src={javascript}alt=''className='icone' /> </a>
             <a href='https://nodejs.org/en/docs' target='_blank' rel='noreferrer'> <img src={node}alt=''className='icone' /> </a>
             <a href='https://react.dev/' target='_blank' rel='noreferrer'> <img src={react} alt='' className='icone'/> </a>
-            <a href='https://reactnative.dev/' target='_blank' rel='noreferrer'> <img src={reactNative} alt='' className='icone'/> </a>
+            
           </figure>
          </section>
           <section>
             <h2>Por que Me escolher?</h2>
-            <h4>Por que contar com meu trabalho? Porque além de um profundo conhecimento técnico, trago consigo um comprometimento inabalável em entregar resultados de qualidade, dentro do prazo e alinhados às necessidades do seu projeto.
+            <h4>Além de um profundo conhecimento técnico, trago consigo um comprometimento inabalável em entregar resultados de qualidade, dentro do prazo e alinhados às necessidades do seu projeto.
 
 Minha jornada como programador freelancer me capacitou a lidar com uma ampla gama de desafios, me tornando ágil na resolução de problemas e adaptável a diferentes ambientes e demandas.
 
