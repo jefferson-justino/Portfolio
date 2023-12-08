@@ -6,7 +6,7 @@ import github from './images/github.svg'
 import html from './images/ferramentas/icons/html.svg'
 import javascript from './images/ferramentas/icons/javascript.svg' 
 import linkedin from './images/linkedin.svg'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import react from './images/ferramentas/icons/react.svg';
 
 import Project from './components/projects';
@@ -15,9 +15,16 @@ const [nomes,setNome]=useState()
 const [emails,setEmail]=useState()
 const [mensagems,setMensagem]=useState()
 
-
-
 const urlDev ='https://contatoport.onrender.com/contato'
+async function ligarApi (){
+  const mostrar = await (await fetch(urlDev+'/3')).json()
+  console.log(mostrar)
+}
+
+useEffect(()=>{
+ligarApi()
+})
+
 
  async function salvar () {
   
