@@ -6,11 +6,43 @@ import github from './images/github.svg'
 import html from './images/ferramentas/icons/html.svg'
 import javascript from './images/ferramentas/icons/javascript.svg' 
 import linkedin from './images/linkedin.svg'
-import React from 'react';
+import React, { useState } from 'react';
 import react from './images/ferramentas/icons/react.svg';
 
 import Project from './components/projects';
 function App() {
+const [nomes,setNome]=useState()
+const [emails,setEmail]=useState()
+const [mensagems,setMensagem]=useState()
+
+
+
+const urlDev ='https://contatoport.onrender.com/contato'
+
+ async function salvar () {
+  
+  const conteudo = await fetch(urlDev,{
+    method: 'POST',
+    headers: {
+      'Accept':'application/json',
+      'Content-Type':'application/json'
+    },
+    body: JSON.stringify({
+      pessoa: 1,
+      nome:nomes,
+      email:emails,
+      mensagem:mensagems
+    })
+   
+    
+
+}, alert('Enviado!'))
+  
+    return conteudo
+ 
+
+}
+
   return (
     <div className="app">
         <header>
@@ -87,14 +119,14 @@ Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em a
                   <fieldset>
                     <legend>Contato</legend>
                 <p>Nome</p>
-                <input type='text' placeholder='Insira seu nome ou empresa'/>
+                <input type='text' placeholder='Insira seu nome ou empresa' onChange={(e)=> setNome(e.target.value)}/>
                 <p>Email</p>
-                <input type='text' placeholder='Insira um email válido'/>
+                <input type='text' placeholder='Insira um email válido' onChange={(e)=> setEmail(e.target.value)}/>
                 <p>Mensagem</p>
-                <textarea rows={10} cols={40} >
+                <textarea rows={10} cols={40} onChange={(e)=> setMensagem(e.target.value)}>
                   
                 </textarea>
-                <input type='button' value='ENVIAR' id='submit'/>
+                <input type='submit' value='ENVIAR' id='submit' onClick={salvar}/>
                 </fieldset>
                 </form>
             </article>
@@ -104,7 +136,7 @@ Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em a
           <footer>
           <a href='https://github.com/jefferson-justino' target='_blank'  rel="noreferrer"> <img src={github} className='iconeFooter' alt='github'/> </a>
             <a href='https://www.linkedin.com/in/jefferson-justino-b5879920b/' target='_blank'  rel="noreferrer"> <img src={linkedin} className='iconeFooter' alt='linkedin'/> </a>
-             <a href='#jeff' id='nome'> <pre>Jefferson Justino 2023 ©</pre></a>
+             <a href='#inicio' id='nome'> <pre>Jefferson Justino 2023 ©</pre></a>
           </footer>
 
     </div>

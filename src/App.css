@@ -87,6 +87,9 @@ header nav ul a :hover{
 html{
     scroll-behavior:smooth;
 }
+#inicio{
+    padding-top: 8%;
+}
 #sobreMim{
     padding-top: 8%;
 }
@@ -123,6 +126,9 @@ transform: scale(1);
     article{
         padding-left: 5%;
         padding-right: 5%;
+    }
+    #inicio{
+        padding-top: 12%;
     }
     #sobreMim{
         padding-top: 12%;
@@ -173,6 +179,9 @@ transform: scale(1);
     .photo{
         width: 300px;
     }
+    #inicio{
+        padding-top: 15%;
+    }
     #sobreMim{
         padding-top: 15%;
     }
@@ -203,6 +212,9 @@ textarea {
 fieldset{
     border-radius: 30px;
     width: 300px;
+}
+#inicio{
+    padding-top: 18%;
 }
 #sobreMim{
     padding-top: 18%;
