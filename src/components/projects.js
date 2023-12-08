@@ -1,8 +1,15 @@
 import './project.css'
 import imgCalculador from '../images/projetos/calculadorMercadoria.png'
 import imgSorteados from '../images/projetos/sorteados.png'
+import imgSorteadosApp from '../images/projetos/sorteados-app.jpg'
 export default function Project (){
-const projects =[{
+const projects =[
+    {
+        titulo:'Sorteados-App',
+        descricao: 'Aplicativo de sorteio onde pode sortear números aleatórios e lista com nome de pessoas.',
+        image:imgSorteadosApp,
+        link:'https://drive.google.com/file/d/1Om5kYkQpmRCPyxH6hpIusdhAgd6ayhiV/view?usp=sharing'
+    },{
     titulo:'Sorteados',
     descricao: 'Site de sorteio onde pode sortear números aleatórios e lista com nome de pessoas.',
     image:imgSorteados,
