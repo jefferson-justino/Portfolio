@@ -222,8 +222,43 @@ article{
 }
 
 }
-@media(min-width:377px){
+@media(max-width:377px){
     #submit{
         margin-left: 2%;
+    }
+    #inicio{
+        padding-top: 23%;
+    }
+    #sobreMim{
+        padding-top: 23%;
+    }
+    #ferramentas{
+        padding-top: 23%;
+    }
+    #contato{
+        padding-top: 23%;
+    }
+    #projetos{
+        padding-top: 23%;
+    }
+}
+@media(max-width:383px){
+    #submit{
+        margin-left: 2%;
+    }
+    #inicio{
+        padding-top: 23%;
+    }
+    #sobreMim{
+        padding-top: 23%;
+    }
+    #ferramentas{
+        padding-top: 23%;
+    }
+    #contato{
+        padding-top: 23%;
+    }
+    #projetos{
+        padding-top: 23%;
     }
 }

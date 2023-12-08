@@ -17,6 +17,7 @@ function App() {
 
           <nav>
             <ul>
+            <a href='#inicio'><li>Início</li></a>
               <a href='#sobreMim'><li>Sobre Mim</li></a>
               <a href='#ferramentas'><li>Ferramentas</li></a>
               <a href='#projetos'><li>Projetos</li></a>
@@ -28,9 +29,9 @@ function App() {
         </header>
 
 
-        <main id='jeff' >
+        <main  >
          <section>
-          <h1 >Jefferson Justino</h1>
+          <h1 id='inicio'>Jefferson Justino</h1>
           <h2>Desenvolvedor Web | Mobile</h2>
       
             <figure>
