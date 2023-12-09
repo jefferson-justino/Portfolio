@@ -17,7 +17,7 @@ const [mensagems,setMensagem]=useState()
 
 const urlDev ='https://contatoport.onrender.com/contato'
 async function ligarApi (){
-  const mostrar = await (await fetch(urlDev+'/3')).json()
+  const mostrar = await (await fetch(urlDev+'/20')).json()
   console.log(mostrar)
 }
 
