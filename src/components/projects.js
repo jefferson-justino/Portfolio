@@ -2,8 +2,15 @@ import './project.css'
 import imgCalculador from '../images/projetos/calculadorMercadoria.png'
 import imgSorteados from '../images/projetos/sorteados.png'
 import imgSorteadosApp from '../images/projetos/sorteados-app.jpg'
+import imgTragicoNerd from '../images/projetos/tragiconerd.png'
 export default function Project (){
 const projects =[
+    {
+        titulo:'Site Tragico Nerd',
+        descricao: 'Site voltado a comunidade do Streamer, facilitando o acesso as informações e apoio ao canal.',
+        image:imgTragicoNerd,
+        link:'https://tragiconerd.netlify.app/'
+    },
     {
         titulo:'Sorteados-App',
         descricao: 'Aplicativo de sorteio onde pode sortear números aleatórios e lista com nome de pessoas.',
