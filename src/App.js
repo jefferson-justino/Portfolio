@@ -1,54 +1,16 @@
 import myphoto from './images/myphoto.jpg'
-import node from './images/ferramentas/icons/nodejs.svg' 
+
 import './App.css';
-import css from './images/ferramentas/icons/css.svg'
+
 import github from './images/github.svg'
-import html from './images/ferramentas/icons/html.svg'
-import javascript from './images/ferramentas/icons/javascript.svg' 
+
+
 import linkedin from './images/linkedin.svg'
-import React, { useEffect, useState } from 'react';
-import react from './images/ferramentas/icons/react.svg';
+
+
 
 import Project from './components/projects';
 function App() {
-const [nomes,setNome]=useState()
-const [emails,setEmail]=useState()
-const [mensagems,setMensagem]=useState()
-
-const urlDev ='https://contatoport.onrender.com/contato'
-async function ligarApi (){
-  const mostrar = await (await fetch(urlDev+'/20')).json()
-  console.log(mostrar)
-}
-
-useEffect(()=>{
-ligarApi()
-})
-
-
- async function salvar () {
-  
-  const conteudo = await fetch(urlDev,{
-    method: 'POST',
-    headers: {
-      'Accept':'application/json',
-      'Content-Type':'application/json'
-    },
-    body: JSON.stringify({
-      pessoa: 3,
-      nome:nomes,
-      email:emails,
-      mensagem:mensagems
-    })
-   
-    
-
-}, alert('Enviado!'))
-  
-    return conteudo
- 
-
-}
 
   return (
     <div className="app">
@@ -60,7 +22,7 @@ ligarApi()
               <a href='#sobreMim'><li>Sobre Mim</li></a>
               <a href='#ferramentas'><li>Ferramentas</li></a>
               <a href='#projetos'><li>Projetos</li></a>
-              <a href='#contato'><li>Contato</li></a>
+           
             </ul>
           
           </nav>
@@ -96,13 +58,20 @@ Vamos juntos transformar ideias em realidade digital e impulsionar o sucesso de 
          </section>
          <section>
           <h2 id='ferramentas'>Ferramentas que utilizo</h2>
-          <figure>
-            <a href='https://www.w3schools.com/html/html_intro.asp' target='_blank' rel='noreferrer'> <img src={html} alt='html' className='icone'/> </a>
-            <a href='https://www.w3schools.com/css/default.asp' target='_blank' rel='noreferrer'> <img src={css} alt='css' className='icone'/> </a>
-            <a href='https://www.w3schools.com/js/default.asp' target='_blank' rel='noreferrer'> <img src={javascript}alt=''className='icone' /> </a>
-            <a href='https://nodejs.org/en/docs' target='_blank' rel='noreferrer'> <img src={node}alt=''className='icone' /> </a>
-            <a href='https://react.dev/' target='_blank' rel='noreferrer'> <img src={react} alt='' className='icone'/> </a>
-            
+          <figure >
+            <div id='ferramen'>
+           
+             <span className='ferramenta'>JavaScript</span>
+             <span className='ferramenta'>Html</span>
+             <span className='ferramenta'>Css</span>
+             <span className='ferramenta'>Figma</span>
+             <span className='ferramenta'>Node.js</span>
+             <span className='ferramenta'>React.js</span>
+             <span className='ferramenta'>ReactNative</span>
+             <span className='ferramenta'>Mysql</span>
+             <span className='ferramenta'>Express</span>
+             <span className='ferramenta'>Sequelize</span>
+             </div>
           </figure>
          </section>
           <section>
@@ -120,30 +89,14 @@ Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em a
             <h2 id='projetos'>Meus Projetos</h2>
               <Project/>
           </section>
-
-            <article id='contato'>
-                <form >
-                  <fieldset>
-                    <legend>Contato</legend>
-                <p>Nome</p>
-                <input type='text' placeholder='Insira seu nome ou empresa' onChange={(e)=> setNome(e.target.value)}/>
-                <p>Email</p>
-                <input type='text' placeholder='Insira um email válido' onChange={(e)=> setEmail(e.target.value)}/>
-                <p>Mensagem</p>
-                <textarea rows={10} cols={40} onChange={(e)=> setMensagem(e.target.value)}>
-                  
-                </textarea>
-                <input type='submit' value='ENVIAR' id='submit' onClick={salvar}/>
-                </fieldset>
-                </form>
-            </article>
+   
 
 
         </main>
           <footer>
           <a href='https://github.com/jefferson-justino' target='_blank'  rel="noreferrer"> <img src={github} className='iconeFooter' alt='github'/> </a>
             <a href='https://www.linkedin.com/in/jefferson-justino-b5879920b/' target='_blank'  rel="noreferrer"> <img src={linkedin} className='iconeFooter' alt='linkedin'/> </a>
-             <a href='#inicio' id='nome'> <pre>Jefferson Justino 2023 ©</pre></a>
+             <a href='#inicio' id='nome'> <pre>Jefferson Justino ©</pre></a>
           </footer>
 
     </div>

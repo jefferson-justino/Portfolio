@@ -21,6 +21,25 @@ header{
 .icone{
     width: 50px;
 }
+.ferramenta{
+    background-color: rgb(15, 1, 54);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#ferramen{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: -25%;
+
+
+}
+#ferramen :hover {
+    border: 1px solid rgb(85, 45, 177)
+}
 .photo{
     width: 350px;
     border-radius: 200px;
@@ -147,6 +166,12 @@ transform: scale(1);
     main section figure{
         padding-left: 1%;
         
+    }
+    #ferramen{
+        
+        margin-left: -10%;
+    
+    
     }
     main{
         padding-left: 10%;
