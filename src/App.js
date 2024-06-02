@@ -33,7 +33,7 @@ function App() {
         <main  >
          <section>
           <h1 id='inicio'>Jefferson Justino</h1>
-          <h2>Desenvolvedor Web | Mobile</h2>
+          <h2>Desenvolvedor Frontend | Backend</h2>
       
             <figure>
             <a href='https://github.com/jefferson-justino' target='_blank'  rel="noreferrer"> <img src={github} className='icone' alt='github'/> </a>
