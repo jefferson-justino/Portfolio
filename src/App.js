@@ -74,16 +74,7 @@ Vamos juntos transformar ideias em realidade digital e impulsionar o sucesso de 
              </div>
           </figure>
          </section>
-          <section>
-            <h2>Por que Me escolher?</h2>
-            <h4>Além de um profundo conhecimento técnico, trago consigo um comprometimento inabalável em entregar resultados de qualidade, dentro do prazo e alinhados às necessidades do seu projeto.
-
-Minha jornada como programador freelancer me capacitou a lidar com uma ampla gama de desafios, me tornando ágil na resolução de problemas e adaptável a diferentes ambientes e demandas.
-
-Minha busca incessante por aprimoramento me mantém atualizado com as tecnologias mais recentes, permitindo que seu projeto se beneficie das melhores práticas e soluções inovadoras.
-
-Ao optar por meu trabalho, você terá um parceiro confiável, comprometido em agregar valor ao seu projeto e em colaborar ativamente para o sucesso do seu empreendimento. Juntos, podemos transformar suas ideias em realidade e alcançar grandes conquistas.</h4>
-          </section>
+          
 
           <section>
             <h2 id='projetos'>Meus Projetos</h2>
