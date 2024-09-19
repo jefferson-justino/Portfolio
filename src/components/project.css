@@ -1,6 +1,6 @@
 .card{
     width: 250px;
-    height: 300px;
+    height:fit-content;
     border: solid black;
     border-radius: 2em;
     background-color: rgb(26, 1, 58);
