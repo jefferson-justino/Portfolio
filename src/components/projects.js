@@ -13,23 +13,14 @@ const projects =[
         image:imgTragicoNerd,
         link:'https://tragiconerd.netlify.app/'
     },
+    
     {
-        titulo:'Sorteados-App',
-        descricao: 'Aplicativo de sorteio onde pode sortear números aleatórios e lista com nome de pessoas.',
-        image:imgSorteadosApp,
-        link:'https://drive.google.com/file/d/1Om5kYkQpmRCPyxH6hpIusdhAgd6ayhiV/view?usp=sharing'
-    },{
     titulo:'Sorteados',
     descricao: 'Site de sorteio onde pode sortear números aleatórios e lista com nome de pessoas.',
     image:imgSorteados,
     link: 'https://sorteados.netlify.app/'
 },
-{
-    titulo:'Calcular Mercadoria',
-    descricao: 'Site para realizar o cálculo do valor por KG.',
-    image:imgCalculador,
-    link: 'https://calcularmercadoria.netlify.app/'
-},
+
 {
     titulo:'Guia para Jogos',
     descricao: 'Site onde mostra o melhor guia para o respectivo game',
@@ -41,7 +32,19 @@ const projects =[
     descricao: 'Site que simula um cardápio online, onde é possível adicionar os pedidos ao carrinho.',
     image: imgCardapio ,
     link: 'https://cardapios.netlify.app/'
-}]
+},
+{
+    titulo:'Sorteados-App',
+    descricao: 'Aplicativo de sorteio onde pode sortear números aleatórios e lista com nome de pessoas.',
+    image:imgSorteadosApp,
+    link:'https://drive.google.com/file/d/1Om5kYkQpmRCPyxH6hpIusdhAgd6ayhiV/view?usp=sharing'
+},
+{
+    titulo:'Calcular Mercadoria',
+    descricao: 'Site para realizar o cálculo do valor por KG.',
+    image:imgCalculador,
+    link: 'https://calcularmercadoria.netlify.app/'
+},]
 
 
 let result = projects.map((item)=>{
