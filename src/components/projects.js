@@ -1,4 +1,5 @@
 import './project.css'
+import imgCardapio from '../images/projetos/cardapio.png'
 import imgCalculador from '../images/projetos/calculadorMercadoria.png'
 import imgSorteados from '../images/projetos/sorteados.png'
 import imgSorteadosApp from '../images/projetos/sorteados-app.jpg'
@@ -34,6 +35,12 @@ const projects =[
     descricao: 'Site onde mostra o melhor guia para o respectivo game',
     image: imgGuiaParaJogos,
     link: 'https://guiaparajogos.netlify.app/'
+},
+{
+    titulo:'Cardápio digital',
+    descricao: 'Site que simula um cardápio online, onde é possível adicionar os pedidos ao carrinho.',
+    image: imgCardapio ,
+    link: 'https://cardapios.netlify.app/'
 }]
 
 
