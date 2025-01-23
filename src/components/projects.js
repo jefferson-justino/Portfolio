@@ -4,7 +4,7 @@ import imgCalculador from '../images/projetos/calculadorMercadoria.png'
 import imgSorteados from '../images/projetos/sorteados.png'
 import imgSorteadosApp from '../images/projetos/sorteados-app.jpg'
 import imgTragicoNerd from '../images/projetos/tragiconerd.png'
-import imgGuiaParaJogos from '../images/projetos/guiaParaJogos.png'
+import imgTragicoJogos from '../images/projetos/tragico jogos.png'
 export default function Project (){
 const projects =[
     {
@@ -22,9 +22,9 @@ const projects =[
 },
 
 {
-    titulo:'Guia para Jogos',
-    descricao: 'Site onde mostra o melhor guia para o respectivo game',
-    image: imgGuiaParaJogos,
+    titulo:'Tragico Jogos',
+    descricao: 'Site para venda de jogos através de link de afiliado.',
+    image: imgTragicoJogos,
     link: 'https://guiaparajogos.netlify.app/'
 },
 {
