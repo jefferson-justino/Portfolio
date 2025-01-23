@@ -25,7 +25,7 @@ const projects =[
     titulo:'Tragico Jogos',
     descricao: 'Site para venda de jogos através de link de afiliado.',
     image: imgTragicoJogos,
-    link: 'https://guiaparajogos.netlify.app/'
+    link: 'https://tragicojogos.netlify.app/'
 },
 {
     titulo:'Cardápio digital',
